@@ -1,7 +1,7 @@
 ## 5.6.0 (November 1, 2017)
 ---
 ### New Features
-
+- Added Halifax Stanfield International Airport (Canada) [#106](https://github.com/openscope/openscope/issues/106)
 
 
 ### Bugfixes
