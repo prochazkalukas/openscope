@@ -193,13 +193,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             premium: false,
             wip: false
         },
-        // {
-        //     icao: 'kdca',
-        //     level: 'medium',
-        //     name: 'Reagan National Airport',
-        //     premium: false,
-        //     wip: true
-        // },
+        {
+            icao: 'kdca',
+            level: 'medium',
+            name: 'Reagan National Airport',
+            premium: false,
+            wip: false
+        },
         // {
         //     icao: 'kdfw',
         //     level: 'hard',
