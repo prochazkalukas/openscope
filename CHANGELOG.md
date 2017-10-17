@@ -4,6 +4,7 @@
 - Add Tampa Intl. (KTPA) [#647](https://github.com/openscope/openscope/issues/647)
 - Add Theodore Francis Green Memorial State Airport (Providence, US) [#107](https://github.com/openscope/openscope/issues/107)
 - New Airport: KDTW (Detroit Metropolitan Wayne County Airport, MI) [#559](https://github.com/openscope/openscope/issues/559)
+- New Airport: KPIT (Pittsburgh International Airport, PA) [#785](https://github.com/openscope/openscope/issues/785)
 
 
 
