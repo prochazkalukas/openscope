@@ -625,7 +625,7 @@ export default class InputController {
             throw error;
         }
 
-        if (aircraftCommandParser.command !== 'transmit') {
+        if (aircraftCommandParser.command !== PARSED_COMMAND_NAME.TRANSMIT) {
             return this.processSystemCommand(aircraftCommandParser);
         }
 
