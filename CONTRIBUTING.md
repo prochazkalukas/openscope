@@ -1,11 +1,11 @@
 # Contribution Guidelines
 Hello, and thank you for your interest in contributing to openScope! Please take a minute to review our Contribution Guidelines, as this will result in getting your issue resolved or pull request merged faster.
 ## Getting set up
-openScope uses multiple tools for development, the basics being Git and Node. Getting these set up are covered in the quick start guide in README.md. To contribute, you will also need an IDE and eslint (`npm install -g eslint`). After this, you are ready to create a branch and get developing!
+openScope uses multiple tools for development, the basics being Git and Node. Getting these set up are covered in the quick start guide in README.md. To contribute, you will also need an IDE and eslint. After this, you are ready to create a branch and get developing!
 ## Submitting a pull request
 Every pull request on openScope has a corresponding issue. Before opening a pull request, please create an issue on GitHub (if one does not already exist).
 
-For the sake of simplicity, openScope discourages the use of repos outside of the main openscope/openscope repository, including forks. For access to the repository, you are asked to join openScope's [Slack channel](https://slack.openscope.co), and contact Nate Geslin or Erik Quinn for access. After this, you can push your remote branch to the main repository.
+For the sake of simplicity, openScope discourages the use of repos outside of the main openscope/openscope repository, including forks. For access to the repository, you are asked to join openScope's [Slack channel](https://slack.openscope.co), and contact Nate Geslin or Erik Quinn for access. After this, you can push your branch to the main repository.
 
 *Note that some members do maintain their own forks, mainly for testing purposes. There is nothing stopping you from doing so, however, PRs must be opened from a branch in the main repository.*
 
