@@ -7,13 +7,13 @@ Every pull request on openScope has a corresponding issue. Before opening a pull
 
 For the sake of simplicity, openScope discourages the use of repos outside of the main openscope/openscope repository, including forks. For access to the repository, you are asked to join openScope's [Slack channel](https://slack.openscope.co), and contact Nate Geslin or Erik Quinn for access. After this, you can push your remote branch to the main repository.
 
-*Note that some members do maintain their own forks, mainly for testing purposes. There is nothing stopping you from doing so, however PRs must be opened from a branch in the main repository.*
+*Note that some members do maintain their own forks, mainly for testing purposes. There is nothing stopping you from doing so, however, PRs must be opened from a branch in the main repository.*
 
 Whenever you are ready to open the pull request itself, go to GitHub and open a new PR. There is a template in place for ease of use. While it is not required, if you decide to forgo the template, please include what issue your PR addresses ("Resolves #XXX") and a brief description as well.
 
 After your PR is opened, other contributors may approve your pull request, or request changes. After any needed changes are approved, n8rzz or erikquinn can merge your branch into the main `develop` branch.
 ## Pull request naming convention
-PRs should be in the format of "category/number". More information can be found in our [Git Flow documentation](documentation/git-flow-process.md)
+PRs should be in the format of "category/number". More information can be found in our [Git Flow documentation](documentation/git-flow-process.md).
 ## Commits
 Commits are also subject to certain conventions, the main one being that commits should start with the branch name. For example, working on a "bugfix/404" branch, commits could take the form of "bugfix/404 - resolved error where some files could not be found".
 ## Conclusion
