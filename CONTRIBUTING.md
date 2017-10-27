@@ -14,6 +14,8 @@ Whenever you are ready to open the pull request itself, go to GitHub and open a 
 After your PR is opened, other contributors may approve your pull request, or request changes. After any needed changes are approved, n8rzz or erikquinn can merge your branch into the main `develop` branch.
 ## Pull request naming convention
 PRs should be in the format of "category/number". More information can be found in our [Git Flow documentation](documentation/git-flow-process.md)
+## Commits
+Commits are also subject to certain conventions, the main one being that commits should start with the branch name. For example, working on a "bugfix/404" branch, commits could take the form of "bugfix/404 - resolved error where some files could not be found".
 ## Conclusion
 Please attempt to conform to these guidelines, as it makes development a lot easier for everyone involved. More information can be found in the `documentation/` folder, and don't hesitate to ask around on [Slack](https://slack.openscope.co) if you have any questions!
 
