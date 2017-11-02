@@ -92,13 +92,6 @@ export default class RunwayModel extends BaseModel {
         };
 
         /**
-         * @property labelPos
-         * @type {array<number>}
-         * @default []
-         */
-        this.labelPos = [];
-
-        /**
          * @property length
          * @type
          * @default
@@ -229,7 +222,7 @@ export default class RunwayModel extends BaseModel {
             this.ils.glideslopeGradient = degreesToRadians(data.glideslope[end]);
         }
 
-        // FIXME: neither property is defined in any airport json files
+        // TODO: neither property is defined in any airport json files
         // if (data.ils_gs_maxHeight) {
         //     this.ils.gs_maxHeight = data.ils_gs_maxHeight[end];
         // }
