@@ -305,6 +305,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             wip: false
         },
         {
+            icao: 'krdu',
+            level: 'easy',
+            name: 'Raleigh–Durham International Airport',
+            premium: false,
+            wip: false
+        },
+        {
             icao: 'ksdf',
             level: 'medium',
             name: 'Louisville International Airport',
