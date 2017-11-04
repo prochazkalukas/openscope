@@ -1,17 +1,43 @@
+## 5.7.0 (December 1, 2017)
+---
+### New Features
+
+
+
+
+
+### Bugfixes
+
+
+
+
+
+### Enhancements & Refactors
+
+
+
+
+
+## 5.6.1 (November 1, 2017)
+---
+### Hotfix
+- Fix severe canvas bug for airports with runways that don't draw extended centerlines [#814](https://github.com/openscope/openscope/issues/814)
+
+
 ## 5.6.0 (November 1, 2017)
 ---
 ### New Features
 - Add Tampa Intl. (KTPA) [#647](https://github.com/openscope/openscope/issues/647)
 - Add Theodore Francis Green Memorial State Airport (Providence, US) [#107](https://github.com/openscope/openscope/issues/107)
 - New Airport: KDTW (Detroit Metropolitan Wayne County Airport, MI) [#559](https://github.com/openscope/openscope/issues/559)
-
-
+- Splits canvas into STATIC and DYNAMIC canvases, only drawing updates when there are updates to draw. [#236](https://github.com/openscope/openscope/issues/236)
+    - Moves CanvasController arrow functions to bound class methods
 
 ### Bugfixes
 - Fix bug where aircraft cleared twice for ILS won't join glideslope [#667](https://github.com/openscope/openscope/issues/667)
 - Fix bug of aircraft descending via STAR to '0' altitude [#567](https://github.com/openscope/openscope/issues/567)
-
-
+- `sid` command no longer sets the aircraft's destination property [#787](https://github.com/openscope/openscope/issues/787)
+- Ensure aircraft future path is drawn only when directed by settings menu [#812](https://github.com/openscope/openscope/issues/812)
 
 ### Enhancements & Refactors
 - Deprecated the `rate` command [#755](https://github.com/openscope/openscope/issues/755)
@@ -28,7 +54,7 @@
 - Updates KBOS to AIRAC 1711 [#780](https://github.com/openscope/openscope/issues/780)
 - Adds `CanvasStageModel` class and abstracts canvas dimensions, pan, zoom, and unit translation methods to this new singleton [#726](https://github.com/openscope/openscope/issues/726)
 - Updates KPDX (Portland International Airport, OR) [#650](https://github.com/openscope/openscope/issues/650)
-
+- Adds useful error message and tests for case when airport file has procedure with improperly defined `draw` segment [#791](https://github.com/openscope/openscope/issues/791)
 
 
 ## 5.5.1 (October 1, 2017)
