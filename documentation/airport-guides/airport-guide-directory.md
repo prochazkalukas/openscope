@@ -7,6 +7,7 @@ In order to help you learn the details of each particular airspace, an "airport 
 - [KELP - El Paso International Airport](kelp.md)
 - [KJAX - Jacksonville International Airport](kjax.md)
 - [KPDX - Portland International Airport](kpdx.md)
+- [KRDU - Raleigh–Durham International Airport](krdu.md)
 - [KSDF - Louisville International Airport](ksdf.md)
 - [KSEA - Seattle–Tacoma International Airport](ksea.md)
 - [KSTL - St. Louis Lambert International Airport](kstl.md)
