@@ -13,7 +13,7 @@
 
 
 ### Enhancements & Refactors
-
+- Updates KDTW to AIRAC 1712 [#821](https://github.com/openscope/openscope/issues/821)
 
 
 
