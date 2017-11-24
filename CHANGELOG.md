@@ -14,6 +14,8 @@
 
 ### Enhancements & Refactors
 - Updates KLAS (McCarran International Airport, NV) [#485](https://github.com/openscope/openscope/issues/485)
+- Add restricted and prohibited areas to KSEA [#823](https://github.com/openscope/openscope/issues/823)
+- Updates KSTL to AIRAC 1712 [#825](https://github.com/openscope/openscope/issues/825)
 
 
 
